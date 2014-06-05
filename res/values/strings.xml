@@ -1,0 +1,106 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="planets_array">
+        <item>商城首页</item>
+        <item>设置</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="planets_array1">
+        <item>Mercury1</item>
+        <item>Venus1</item>
+        <item>Earth1</item>
+        <item>Mars1</item>
+        <item>Jupiter1</item>
+        <item>Saturn1</item>
+        <item>Uranus1</item>
+        <item>Neptune1</item>
+    </string-array>
+    <string-array name="planets_array2">
+        <item>Mercury2</item>
+        <item>Venus2</item>
+        <item>Earth2</item>
+        <item>Mars2</item>
+        <item>Jupiter2</item>
+        <item>Saturn2</item>
+        <item>Uranus2</item>
+        <item>Neptune2</item>
+    </string-array>
+    
+    <string-array name="planets_array3">
+        <item>Mercury3</item>
+        <item>Venus3</item>
+        <item>Earth3</item>
+        <item>Mars3</item>
+        <item>Jupiter3</item>
+        <item>Saturn3</item>
+        <item>Uranus3</item>
+        <item>Neptune3</item>
+    </string-array>
+    
+    <string-array name="tab_array">
+        <item>精品</item>
+        <item>排行</item>
+        <item>推荐</item>
+        <item>类别</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="nav_desc">nav_desc</string>
+    <string name="launch_intro">这是第一个Fragment界面</string>
+    <string name="launch_click_me">我是一个按钮</string>
+    <string name="common_intro">这是CommonUIFragment界面</string>
+    <string name="app_name">appmarket</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="recommended_products">精品推荐</string>
+    <string name="game_detail">简介</string>
+    <string name="game_size">大小：</string>
+    <string name="game_version">版本：</string>
+    <string name="game_count_unit">款</string>
+    <string name="title_recommend">精品推荐</string>
+    <string name="title_newest">最新排行</string>
+    <string name="title_type_game">游戏分类</string>
+    <string name="title_setting">功能设置</string>
+    <string name="setting_about">关于</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_help">帮助</string>
+    <string name="about_title">小辣椒游戏中心</string>
+    <string name="about_version">版本号：</string>
+    <string name="about_content">&#160;&#160;&#160;&#160;&#160;&#160;本软件的下载、安装和使用完全免费，通过小辣椒游戏中下载的所有游戏信息费和流量费由运营商收到，小辣椒不收取任何费用。</string>
+    <string name="help_qq">客服QQ：</string>
+    <string name="help_qq_group">Q&#160;Q&#160;&#160;群&#160;：</string>
+    <string name="help_email">E&#160;m&#160;a&#160;i&#160;l&#160;:</string>
+    <string name="feedback_title">谢谢您的支持！欢迎您提出宝贵的意见和建议。</string>
+    <string name="feedback_default_content">请输入您的反馈意见。（140字以内）</string>
+    <string name="feedback_contact">如有问题，请联系万能的客服。电话：</string>
+    <string name="feedback_send">发 送</string>
+    <string name="download">下载</string>
+    <string name="pause">暂停</string>
+    <string name="start">启动</string>
+    <string name="continued">继续</string>
+
+</resources>
