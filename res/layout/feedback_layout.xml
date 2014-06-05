@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/frameTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/market_top_bg" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/titleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/setting_feedback"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/feedback_title"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/feedbackContent"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:gravity="top"
+        android:hint="@string/feedback_default_content"
+        android:background="@drawable/feedback_bg"/>
+    
+    <Button 
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_feedback_send_selector" />
+    
+    <TextView
+        android:id="@+id/feedbackContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:text="@string/feedback_contact"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+</LinearLayout>

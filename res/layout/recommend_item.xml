@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:src="@drawable/game_icon" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/gameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/icon"
+            android:text="斗地主斗地主"
+            android:textColor="#272727"
+            android:textSize="18dp" />
+
+        <RatingBar
+            android:id="@+id/starsArea"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gameName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/icon" />
+
+        <LinearLayout
+            android:id="@+id/downloadArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gameName"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/starsArea" >
+
+            <TextView
+                android:id="@+id/downloadCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/btn_download"
+                android:text="480256"
+                android:textColor="#1abc9c"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gameDesc"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/starsArea"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/icon"
+            android:singleLine="true"
+            android:text="斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主斗地主"
+            android:textColor="#747474" />
+
+        
+        
+        
+        <com.mykj.lobby.market.ButtonView
+            android:id="@+id/btnAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+
+</LinearLayout>
